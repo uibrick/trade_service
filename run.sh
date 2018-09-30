@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 IMAGE="asset-trade-service"
 WD="/home/rdc/asset-trade"
