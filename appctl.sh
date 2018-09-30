@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 cp -f ./run.sh /etc/cron.daily/asset-trade-service.sh
 
