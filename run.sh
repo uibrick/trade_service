@@ -18,7 +18,8 @@ function stop()
     echo "stop finished";
 }
 
-if [[ "$1" == norun ]]; then
+if [[ "$1" == "dry" ]]; then
+echo "$1"
 exit 0
 else
 start;
