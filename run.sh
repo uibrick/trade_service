@@ -7,7 +7,7 @@ function start()
 {
     echo "start ...";
     docker run -d -e PRODUCTION=1 -e TZ="Asia/Shanghai" --rm --name "$IMAGE" -v "$WD":/usr/src/app \
-        -w /usr/src/app -p 5000:5000 asset-trade-service python app.py;
+        -w /usr/src/app -p 5000:5000 asset-trade-service;
     echo "started";
 }
 
