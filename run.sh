@@ -20,7 +20,6 @@ function stop()
 
 if [[ "$1" == "dry" ]]; then
 echo "$1"
-exit 0
 else
 start;
 fi
