@@ -5,7 +5,7 @@ cp -f ./run.sh /etc/cron.daily/asset-trade-service.sh
 #source run.sh
 
 IMAGE="asset-trade-service"
-WD="/home/rdc/asset-trade"
+WD="$PWD"
 
 function start()
 {
