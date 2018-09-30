@@ -1,3 +1,8 @@
 # -*- coding: UTF-8 -*-
 
-print('hello app')
+from flask import Flask
+
+
+app = Flask('test')
+
+app.run()
