@@ -15,6 +15,5 @@ function stop()
 {
     echo "stop ...";
     docker stop "$IMAGE";
-    echo "stoped";
+    echo "stop finished";
 }
-
