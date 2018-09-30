@@ -35,4 +35,6 @@ build;
 start;
 elif [[ "$1" == "stop" ]]; then
 stop;
+else:
+start;
 fi
