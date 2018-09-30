@@ -2,7 +2,7 @@
 
 cp -f ./run.sh /etc/cron.daily/asset-trade-service.sh
 
-source run.sh
+source run.sh norun
 
 function build()
 {

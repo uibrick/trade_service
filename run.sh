@@ -17,3 +17,9 @@ function stop()
     docker stop "$IMAGE";
     echo "stop finished";
 }
+
+if [[ "$1" == norun ]]; then
+;
+else
+start;
+fi
