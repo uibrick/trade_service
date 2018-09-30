@@ -19,7 +19,7 @@ function stop()
 }
 
 if [[ "$1" == norun ]]; then
-;
+exit 0
 else
 start;
 fi
