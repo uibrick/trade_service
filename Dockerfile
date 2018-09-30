@@ -6,4 +6,4 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install uwsgi
 
-CMD [ "uwsgi -s /tmp/trade_service.sock --manage-script-name --mount /=app:app"]
+CMD [ "uwsgi", "-s", "/tmp/trade_service.sock", "--manage-script-name", "--mount", "/=app:app"]
