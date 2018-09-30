@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-IMAGE="asset-trade-service"
+IMAGE="trade-service"
 WD="/home/localhost/trade-service"
 
 function start()
