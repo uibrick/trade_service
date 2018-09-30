@@ -17,7 +17,9 @@ start;
 elif [[ "$1" == "stop" ]]; then
 stop;
 elif [[ "$1" == "restart" ]]; then
+echo "try to restart";
 build;
 stop;
 start;
+echo "restarted";
 fi
