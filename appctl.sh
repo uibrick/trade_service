@@ -16,4 +16,8 @@ build;
 start;
 elif [[ "$1" == "stop" ]]; then
 stop;
+elif [[ "$1" == "restart" ]]; then
+build;
+stop;
+start;
 fi
