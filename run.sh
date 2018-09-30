@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 IMAGE="asset-trade-service"
-WD="/home/rdc/asset-trade"
+WD="/home/localhost/asset-trade"
 
 function start()
 {
